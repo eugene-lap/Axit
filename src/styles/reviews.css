@@ -19,30 +19,29 @@
     width: 370px;
     background: #E2E2E2;
     border-radius: 10px;
-    padding-top: 38px;
-    padding-bottom: 37px;
+    position: relative;
 }
-
 .reviews-card__subtitle {
     text-align: center;
+    padding-top: 38px;
+    padding-bottom: 37px;
     margin: 0;
 }
-
-.reviews-sectioncard {
-    margin-top: 83px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.reviews-card__figur {
+.reviews-card__enclosing::after{
+    content: "";
     width: 0;
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-top: 20px solid #E2E2E2;
-    margin-left: 70px;
+    left: 70px;
+    position: absolute;
 }
-
+.reviews-sectioncard {
+    margin-top: 83px;
+    display: flex;
+    justify-content: space-between;
+}
 .blok-information {
     margin-top: 46px;
     display: flex;

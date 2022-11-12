@@ -1,5 +1,5 @@
 .tabs {
-    margin-top: 99px;
+    padding-top: 175px;
 }
 
 .tads-header {
@@ -23,6 +23,10 @@
 .tads-header__navigation:nth-child(1) {
     border: 1px solid #c6cbcd;
     border-radius: 5px 5px 0px 0px;
+    background-color: #ffffff;
+    border-bottom: none ;
+    position: relative;
+    top: 1px;
 }
 
 .tabs-kontent {

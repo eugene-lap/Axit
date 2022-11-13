@@ -1,0 +1,14 @@
+.footer{
+    background-color: black;
+
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 39.43px;
+}
+.footer__information{
+    margin-top: 32.23;
+    margin-bottom: 27px;
+}

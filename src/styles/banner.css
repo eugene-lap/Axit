@@ -1,0 +1,7 @@
+.banner{
+    margin-top: 75px;
+    background-image: url(../assets/icons/begraund-main.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

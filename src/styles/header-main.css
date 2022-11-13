@@ -2,14 +2,14 @@
   background-color: black;
   position: fixed;
   top: 0px;
-  width: 100%;
+  min-width: 100%;
   z-index: 1000;
 
 
 }
 
 .main-header__conteiner{
-  max-width: 1510px;
+  width: 1510px;
   margin: 0 auto;
 }
 
@@ -31,7 +31,7 @@
   display: flex;
   align-items: center;
   text-transform: capitalize;
-  width: 113.8px;
+  min-width: 113.8px;
 
 
   justify-content: space-around;

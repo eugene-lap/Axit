@@ -1,7 +1,149 @@
 .banner{
-    margin-top: 75px;
-    background-image: url(../assets/icons/begraund-main.jpg);
-    height: 100vh;
+    position: relative;
+    background-image: url(../assets/icons/begraund-main.svg);
+    background-position: 0 0;
+    background-size: 1510px 1026px  ;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.banner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.banner-content__logo{
+    width: 270px;
+    height: 100px;
+}
+
+.banner-container{
+    padding-top: 283px;
+    padding-bottom: 185px ;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content__title{
+    margin-top: 50.88px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.banner-content__line{
+    border: 1px solid #FFFFFF;
+    width: 170px;
+    margin-top: 55.12px;
+}
+.banner-content__subtitle{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+margin-top: 42px;
+}
+
+.banner-forms{
+    width: 470px;
+    height: 450px;
+    background-color: #FFFFFF ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.banner-content__button{
+    margin-top: 42px;
+    width: 270px;
+    height: 58px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+background: none;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+border: 2px solid #FFFFFF;
+}
+.banner-form-inpyts{
+    margin-top: 73px ;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.banner-form__title-name::placeholder{
+    color: #BDBDBD;
+}
+.banner-form__title-name{
+    width: 370px;
+    height: 38px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+outline: none;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+
+border: none;
+
+border-bottom: 1px solid #BDBDBD; ;
+}
+.banner-form__title{
+    margin-top: 29px;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #333333;
+
+}
+.banner-form__title-mark{
+    background:none;
+    color: #EC7979;
+}
+.banner-form__button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 470px;
+    height: 60px;
+    background: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
+
 }

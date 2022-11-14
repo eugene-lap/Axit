@@ -1,7 +1,59 @@
 .contact{
-    padding-top: 50px;
+    padding-top: 104px;
     padding-bottom: 50px;
 }
-.cont{
-    height: 622px;
+.in{
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-input__size{
+    width: 571px;
+    height: 38px;
+
+}
+.contact-form-inputs{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact-form-massags__textarea{
+height: 214px;
+width: 569px;
+
+}
+.contact-form{
+    padding-top: 59px;
+}
+.contact-button{
+    width: 370px;
+    height: 58px;
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    border: none;
+}
+.contact-flex{
+    display: flex;
+    justify-content: center;
+}
+.contact-form-massags__textarea{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+}
+.contact-form-massags::placeholder{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
 }

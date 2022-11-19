@@ -1,16 +1,15 @@
 .awesome {
-  padding-top: 117px;
-  padding-bottom: 58px;
-  margin: 0 auto;
-
+  padding-top: 7.3125rem;
+  padding-bottom: 3.625rem;
 }
+
 .awesome-sectioncard {
-  margin-top: 71px;
+  margin-top: 4.4375rem;
   display: flex;
 }
 
 .awesome__card {
-  width: 370px;
+  min-width: 23.125rem;
 }
 
 .awesome__card-frame {
@@ -29,29 +28,21 @@
 }
 
 .awesome__card-title {
-  margin-top: 73px;
-
+  margin-top: 4.5625rem;
   font-family: "Open Sans";
-  font-size: 24px;
-  line-height: 33px;
-
+  font-size: 1.5rem;
+  line-height: 2.0625rem;
   text-align: center;
-  text-transform: capitalize;
-
   color: #000000;
 }
 
 .awesome__card-subtitle {
-  margin-top: 41px;
-
-  font-family: "Raleway";
-  font-size: 18px;
-  line-height: 21px;
+  margin-top: 2.5625rem;
+  line-height: 1.3125rem;
   text-align: center;
-
   color: #000000;
 }
 
 .awesome__card:nth-child(2) {
-  margin: 0px 30px;
+  margin: 0px 1.875rem;
 }

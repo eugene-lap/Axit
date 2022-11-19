@@ -1,59 +1,67 @@
-.contact{
-    padding-top: 104px;
-    padding-bottom: 50px;
+.contact {
+    padding-top: 6.5rem;
+    padding-bottom: 3.125rem;
 }
-.in{
-    height: 214px;
+
+.form-input-size {
+    min-height: 13.375rem;
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.contact-input__size{
-    width: 571px;
-    height: 38px;
 
+.contact-input__size {
+    min-width: 35.6875rem;
+    min-height: 2.375rem;
 }
-.contact-form-inputs{
+
+.contact-form-inputs {
     display: flex;
     justify-content: space-between;
-    
 }
-.contact-form-massags__textarea{
-height: 214px;
-width: 569px;
 
+.contact-form-massags__textarea {
+    min-height: 13.375rem;
+    min-width: 35.5625rem;
 }
-.contact-form{
-    padding-top: 59px;
+
+.contact-form {
+    padding-top: 3.6875rem;
 }
-.contact-button{
-    width: 370px;
-    height: 58px;
-    margin-top: 80px;
+
+.contact-button {
+    min-width: 23.125rem;
+    min-height: 3.625rem;
+    margin-top: 5rem;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
     text-transform: capitalize;
     color: #FFFFFF;
     background-color: #EC7979;
     border: none;
 }
-.contact-flex{
+
+.contact-flex {
     display: flex;
     justify-content: center;
 }
-.contact-form-massags__textarea{
+
+.contact-form-massags__textarea {
     border: none;
     border-bottom: 1px solid #BDBDBD;
     outline: none;
+    resize: none;
 }
-.contact-form-massags::placeholder{
+
+.contact-form-massags::placeholder {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
     color: #BDBDBD;
 }

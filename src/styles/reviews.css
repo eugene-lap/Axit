@@ -1,59 +1,46 @@
 .reviews {
-    padding-top: 104px;
-    padding-bottom: 64px;
-}
-
-.reviows__section-title {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #000000;
+    padding-top: 6.5rem;
+    padding-bottom: 4rem;
 }
 
 .reviews-card__enclosing {
-    width: 370px;
+    min-width: 23.125rem;
     background: #E2E2E2;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     position: relative;
 }
+
 .reviews-card__subtitle {
     text-align: center;
-    padding-top: 38px;
-    padding-bottom: 37px;
+    padding-top: 2.375rem;
+    padding-bottom: 2.3125rem;
     margin: 0;
 }
-.reviews-card__enclosing::after{
+
+.reviews-card__enclosing::after {
     content: "";
     width: 0;
     height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 20px solid #E2E2E2;
-    left: 70px;
+    border-left: 0.9375rem solid transparent;
+    border-right: 0.9375rem solid transparent;
+    border-top: 1.25rem solid #E2E2E2;
+    left: 4.375rem;
     position: absolute;
 }
+
 .reviews-sectioncard {
-    margin-top: 83px;
+    margin-top: 5.1875rem;
     display: flex;
     justify-content: space-between;
 }
+
 .blok-information {
-    margin-top: 46px;
+    margin-top: 2.875rem;
     display: flex;
 }
 
-.subtitle {
-    margin-top: 15px;
-}
-
 .text-information {
-    margin-left: 30px;
+    margin-left: 1.875rem;
 }
 
 .blok-informatin__portrait {
@@ -62,9 +49,9 @@
 }
 
 .text-information__title {
-    margin-top: 11px;
+    margin-top: 0.6875rem;
 }
 
 .text-information__subtitle {
-    margin-top: 25px;
+    margin-top: 1.5625rem;
 }

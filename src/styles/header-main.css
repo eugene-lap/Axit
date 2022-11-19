@@ -1,15 +1,13 @@
 .main-header {
-  background-color: black;
+  background-color: var(--main-black);
   position: fixed;
-  top: 0px;
-  width: 100vw;
+  top: 0;
+  min-width: 100vw;
   z-index: 1000;
-
-
 }
 
-.main-header__conteiner{
-  width: 1510px;
+.main-header__conteiner {
+  max-width: 94.375rem;
   margin: 0 auto;
 }
 
@@ -21,19 +19,17 @@
 .main-navigation {
   display: flex;
   justify-content: space-between;
-  margin-right: 170px;
+  margin-right: 10.625rem;
 }
 
 .main-navigation__link {
   font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 37.5rem;
+  font-size: 0.875rem;
   display: flex;
   align-items: center;
   text-transform: capitalize;
-  min-width: 113.8px;
-
-
+  min-width: 7.1125rem;
   justify-content: space-around;
   color: #ffffff;
   text-decoration: none;
@@ -45,5 +41,5 @@
 }
 
 .axit-logo {
-  margin-left: 115.28px;
+  margin-left: 7.205rem;
 }

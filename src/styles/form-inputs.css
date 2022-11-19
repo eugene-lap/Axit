@@ -1,0 +1,25 @@
+.form-inpyts {
+    margin-top: 4.5625rem;
+    min-height: 11.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.form__input::placeholder {
+    color: #BDBDBD;
+}
+
+.form__input {
+    min-width: 23.125rem;
+    min-height: 2.375rem;
+    font-family: 'Open Sans';
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    ;
+}

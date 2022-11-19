@@ -1,21 +1,20 @@
-.footer{
-    background-color: black;
-
+.footer {
+    background-color: var(--main-black);
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 39.43px;
+    padding-top: 2.464375rem;
 }
-.footer__information{
-    margin-top: 32.23;
-    margin-bottom: 27px;
+
+.footer__information {
+    margin-top: 2, 014375rem;
+    margin-bottom: 1, 6875rem;
 }
-.logotips__logo-saze{
+
+.logotips__logo-saze {
     height: 53.20000076293945px;
     width: 53.20000076293945px;
-
-
-
 }

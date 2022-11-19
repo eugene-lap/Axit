@@ -1,13 +1,16 @@
-.stylish{
+.stylish {
     position: relative;
-    background-image: url(../assets/icons/begraund-stylish.svg);
+    background-image: url(../assets/icons/begraund-stylish.jpg);
     background-position: 0 0;
-    background-size: 1510px 442px;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 104px;
+    padding-top: 6.5rem;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: top;
 }
-.stylish::before{
+
+.stylish::before {
     content: '';
     position: absolute;
     top: 0;
@@ -17,30 +20,29 @@
     background-color: rgba(0, 0, 0, 0.5);
 
 }
-.stylish-content-color{
-   color: #FFFFFF;
+
+.stylish-content-color {
+    color: #FFFFFF;
 }
-.stylish-content-line{
-    border: 1px solid #FFFFFF; 
+
+.stylish-content-line {
+    border: 1px solid #FFFFFF;
 }
-.stylish__button{
-    margin: 0 auto;
-    margin-top: 43px;
-    margin-bottom: 50px;
-    width: 370px;
-    height: 58px;
+
+.stylish__button {
+    margin-top: 2.6875rem;
+    margin-bottom: 3.125rem;
+    min-width: 23.125rem;
+    min-height: 3.625rem;
     background: none;
     border: 2px solid #FFFFFF;
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    text-align: center;
-    text-transform: capitalize;
-
-color: #FFFFFF;
+    font-size: 1.125rem;
+    color: #FFFFFF;
 }
-.stylish-container{
+
+.stylish-container {
     display: flex;
     flex-direction: column;
     align-items: center;

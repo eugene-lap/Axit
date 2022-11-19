@@ -1,17 +1,15 @@
 .pricing {
-    margin: 0 auto;
-    padding-top: 104px;
-    padding-bottom: 50px ;
+    padding-top: 6.5rem;
+    padding-bottom: 3.125rem;
     background: #F5F5F5;
 }
 
 .pricing-sectioncard {
-    height: 530px;
-    margin-top: 59px;
+    min-height: 33.125rem;
+    margin-top: 3.6875rem;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-
 }
 
 .pricing-card:nth-child(2) {
@@ -20,28 +18,26 @@
 }
 
 .pricing-card {
-    width: 370px;
+    min-width: 23.125rem;
 }
 
 .pricing-card__title {
-    height: 60px;
+    min-height: 3.75rem;
     font-family: 'Open Sans';
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-transform: capitalize;
     color: #FFFFFF;
     background: #333333;
     border: 2px solid #F5F5F5;
 }
 
 .pricing-card__subtitle-prais {
-    height: 100px;
+    min-height: 6.25rem;
     font-family: 'Raleway';
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,10 +47,9 @@
 }
 
 .pricing-card__subtitle-information {
-    height: 50px;
+    min-height: 3.125rem;
     font-family: 'Raleway';
     font-size: 18px;
-    line-height: 21px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,10 +59,9 @@
 }
 
 .pricing-card__bloks {
-    height: 50px;
+    min-height: 3.125rem;
     font-family: 'Raleway';
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1.125rem;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -57,7 +57,7 @@
     resize: none;
 }
 
-.contact-form-massags::placeholder {
+.contact-form-massags__textarea::placeholder {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;

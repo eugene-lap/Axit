@@ -12,7 +12,7 @@
     margin: 0;
 }
 
-.banner-container {
+.banner-flex-container {
     padding-top: 12.9375rem;
     padding-bottom: 11.5625rem;
     display: flex;

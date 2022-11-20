@@ -2,7 +2,7 @@
     background-color: var(--main-black);
 }
 
-.footer-container {
+.footer-flex-container {
     display: flex;
     flex-direction: column;
     align-items: center;

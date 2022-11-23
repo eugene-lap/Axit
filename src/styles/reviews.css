@@ -55,3 +55,14 @@
 .text-information__subtitle {
     margin-top: 1.5625rem;
 }
+@media(max-width: 480px){
+    .reviews-card:nth-child(2){
+        display: none;
+    }
+    .reviews-card:nth-child(3){
+        display: none;
+    }
+    .reviews-sectioncard{
+        min-width: 100%;
+    }
+}

@@ -65,3 +65,29 @@
     line-height: 1.1875rem;
     color: #BDBDBD;
 }
+@media(max-width: 480px){
+    .contact{
+        padding-top: 2.875rem;
+    }
+    .contact-form-inputs{
+        flex-wrap: wrap;
+    }
+    .contact-input__size{
+        min-width: 100%;
+    }
+    .form-input-size{
+        margin: 0;
+        min-width: 100%;
+    }
+    .contact-form{
+        padding-top: 2rem;
+    }
+    .contact-form-massags__textarea{
+        min-height: 12.6875rem;
+        min-width: 100%;
+    }
+    .contact-form-massags{
+        min-width: 100%;
+        padding-top: 3.125rem;
+    }
+}

@@ -13,3 +13,8 @@
     margin-top: 2, 014375rem;
     margin-bottom: 1, 6875rem;
 }
+@media(max-width: 480px){
+    .footer-flex-container{
+        padding-top: 0;
+    }
+}

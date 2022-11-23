@@ -72,7 +72,6 @@
 }
 @media(max-width: 480px){
     .pricing-card{
-        width: calc(100 / 12);
         margin-top: 1.5rem;
     }
     .pricing-sectioncard{

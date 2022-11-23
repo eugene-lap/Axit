@@ -87,9 +87,13 @@
     color: #FFFFFF;
 }
 @media(max-width: 480px){
+    .banner{
+    background-attachment:local;
+    }
 .banner-flex-container{
     flex-wrap: wrap;
     padding-top: 8.7575rem;
+    padding-bottom: 3.125rem;
 }
 .banner-content__logo {
     display: none;
@@ -111,5 +115,6 @@
  .banner-form{
     min-width: 100%;
     margin-top: 3.5rem;
+    margin-bottom: 0;
  }
 }

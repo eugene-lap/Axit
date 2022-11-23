@@ -86,3 +86,18 @@
     font-size: 0.9375rem;
     color: #FFFFFF;
 }
+@media(max-width: 480px){
+.banner-flex-container{
+    flex-wrap: wrap;
+    padding-top: 8.7575rem;
+}
+.banner-content__logo {
+    display: none;
+}
+ .banner-content__title{
+    margin-top: 0;
+ }
+ .banner-content{
+    align-items: center;
+ }
+}

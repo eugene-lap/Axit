@@ -2,7 +2,7 @@
   background-color: var(--main-black);
   position: fixed;
   top: 0;
-  min-width: 100vw;
+  width: 100vw;
   z-index: 1000;
 }
 
@@ -42,4 +42,13 @@
 
 .axit-logo {
   margin-left: 7.205rem;
+}
+
+@media(max-width: 480px){
+.main-navigation{
+  display: none;
+}
+.axit-logo {
+  margin-left: 1.25rem;
+}
 }

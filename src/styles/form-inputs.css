@@ -1,6 +1,9 @@
 .form-inpyts {
-    margin-top: 4.5625rem;
+    margin: 4.5625rem auto;
+    /* margin-left: 50px;
+    margin-right: 50px; */
     min-height: 11.25rem;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -13,7 +16,7 @@
 }
 
 .form__input {
-    min-width: 23.125rem;
+    width: 100%;
     min-height: 2.375rem;
     font-family: 'Open Sans';
     font-size: 0.875rem;

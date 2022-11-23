@@ -36,8 +36,8 @@
 }
 
 .banner-form {
-    min-width: 29.375rem;
-    min-height: 390px;
+    /* min-height: 390px; */
+    min-width: 24.875rem;
     margin-bottom: 6.75rem;
     background-color: #FFFFFF;
     border-radius: 10px;
@@ -75,7 +75,9 @@
 }
 
 .banner-form__button {
-    min-width: 29.375rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;;
     min-height: 3.75rem;
     margin-top: 4.6875rem;
     background: #EC7979;
@@ -96,8 +98,19 @@
 }
  .banner-content__title{
     margin-top: 0;
+    text-align: center;
  }
  .banner-content{
     align-items: center;
+ }
+ .banner-content__button{
+    width: 100%;
+ }
+ .banner-content__line{
+    width: 40%;
+ }
+ .banner-form{
+    width: 100%;
+    margin-top: 3.5rem;
  }
 }

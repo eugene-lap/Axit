@@ -70,3 +70,16 @@
     background: #FFFFFF;
     border: 2px solid #F5F5F5;
 }
+@media(max-width: 480px){
+    .pricing-card{
+        width: calc(100 / 12);
+        margin-top: 1.5rem;
+    }
+    .pricing-sectioncard{
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .pricing-card:nth-child(2){
+        filter: none;
+    }
+}

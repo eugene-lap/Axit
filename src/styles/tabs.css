@@ -67,3 +67,35 @@
     background: #ec7979;
     border: none;
 }
+@media(max-width: 480px){
+    .tabs{
+        padding-top: 2.5625rem;
+    }
+    .tabs__img{
+        display: none;
+    }
+    .tads-header{
+        width: 100%;
+    }
+    .tads-header__navigation{
+        min-width: calc(100% / 12 * 4);
+    }
+    .tabs-kontent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 0 auto;
+    }
+    .tabs-kontent__title{
+        text-align: center;
+    }
+    .tabs-kontent__suptitle{
+        text-align: center;
+    }
+    .tabs-kontent__button{
+        margin-bottom: 1.875rem;
+    }
+}

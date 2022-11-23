@@ -46,3 +46,16 @@
 .awesome__card:nth-child(2) {
   margin: 0px 1.875rem;
 }
+@media(max-width: 480px){
+  .awesome-sectioncard{
+    margin-top: 3.125rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .awesome__card{
+    width: calc(100% / 12);
+  }
+  .awesome__card:nth-child(2){
+    margin: 0;
+  }
+}

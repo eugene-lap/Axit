@@ -28,3 +28,22 @@
     font-weight: 400;
     color: #86878B;
 }
+@media(max-width: 480px){
+    .social-flex-container{
+        flex-wrap: wrap;
+    }
+    .logotips{
+        min-width: 100%;
+        margin-top: 2rem;
+    }
+    .social-content__title{
+        text-align: center;
+    }
+    .social-content__subtitle{
+        text-align: center;
+    }
+    .logotips__logo-saze{
+        width: 26px;
+        height: 26px;
+    }
+}

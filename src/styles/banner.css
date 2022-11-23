@@ -36,12 +36,11 @@
 }
 
 .banner-form {
-    /* min-height: 390px; */
     min-width: 24.875rem;
     margin-bottom: 6.75rem;
     background-color: #FFFFFF;
     border-radius: 10px;
-    position: relative;
+    
 }
 
 .banner-content {
@@ -75,8 +74,7 @@
 }
 
 .banner-form__button {
-    position: absolute;
-    bottom: 0;
+   
     width: 100%;;
     min-height: 3.75rem;
     margin-top: 4.6875rem;
@@ -105,12 +103,13 @@
  }
  .banner-content__button{
     width: 100%;
+    margin-top: 20px;
  }
  .banner-content__line{
     width: 40%;
  }
  .banner-form{
-    width: 100%;
+    min-width: 100%;
     margin-top: 3.5rem;
  }
 }
